@@ -1,0 +1,11 @@
+public class FastTrack {
+public static void main(String[] args) {
+Clock m1 = new Clock(11,36,12);
+m1.showTime();
+m1.setMin(50);
+System.out.println(m1.getMin());
+m1.showTime();
+Clock m2=new Clock(6,9,30);
+m2.showTime();
+}
+}
